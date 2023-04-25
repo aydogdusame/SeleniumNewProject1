@@ -7,3 +7,8 @@ version 1
 git commit -m komutu mesaj vererek versiyon oluşturmamızı sağlar.
 version2
 -----------------------------------
+git commit -am"v2" : add+commit komutlarını birlikte kullanmamı sağlar.
+git commit -am"v2" : add+commit komutlarını birlikte kullanmamı sağlar.
+ancak bu komutu kullanabilmek için bir kere add komutu kullanılmış olmalı.
+version3
+-----------------------------------
