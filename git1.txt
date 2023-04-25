@@ -1,0 +1,9 @@
+birçok kod yazdım.
+Oleyy, git öğreniyorum
+git init komutu projeyi/klasörü git ile ilişkilendirmek için 
+bir kez kullanılır.
+version 1
+------------
+git commit -m komutu mesaj vererek versiyon oluşturmamızı sağlar.
+version2
+-----------------------------------
