@@ -1,4 +1,4 @@
-package techproed.day03_Locators;
+package techproed.techproed.day03_Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -25,10 +25,15 @@ public class C01_WebElementLocators {
 
         // aramakutusunu locate ediniz ve Nutella aratınız
         WebElement aramaKutusu = driver.findElement(By.id("twotabsearchtextbox"));
-        aramaKutusu.sendKeys("Nutella" + Keys.ENTER);
+       aramaKutusu.sendKeys("Nutella" + Keys.ENTER);
+       driver.navigate().back();
+
+        WebElement buyutec = driver.findElement(By.id("nav-search-submit-button"));
+        aramaKutusu.sendKeys("hot wheels");
+        buyutec.click();
         Thread.sleep(3000);
         // sayfayı kapatınız
- //       driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Nutella" + Keys.ENTER); üsttekiyle aynı işi yapar.
+        //driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Hot Wheels" + Keys.ENTER); //üsttekiyle aynı işi yapar. exceptions almayı engeller ikili işlemde
 
         driver.close();
 

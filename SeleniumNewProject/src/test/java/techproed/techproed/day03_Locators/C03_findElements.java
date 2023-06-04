@@ -1,4 +1,4 @@
-package techproed.day03_Locators;
+package techproed.techproed.day03_Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,7 +21,7 @@ public class C03_findElements {
         // Amazon sayfasında kac tane link olduğunu konsolda yazdırın
         List<WebElement> linklerListesi = driver.findElements(By.tagName("a"));
         System.out.println("Linklerin sayısı : " + linklerListesi.size());
-
+//
         // Linkleri konsolda yazdırın
 
         for (WebElement each:linklerListesi) {
